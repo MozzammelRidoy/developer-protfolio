@@ -1,0 +1,39 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+.tomato{
+    color: tomato;
+}
+section{
+    display: flex;
+    background-color: rgb(237, 225, 210);
+}
+h1{
+    font-size: 70px;
+}
+h2{
+    font-size: 50px;
+
+}
+h3{
+    font-size: 30px;
+}
+.developer-png{
+display: block;  
+}
+.nativ-var{
+
+  
+    list-style: none;
+
+    
+}
+ul{
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
