@@ -1,21 +1,26 @@
 body{
     font-family: 'Ubuntu', sans-serif;
+    display: block;
 }
 .tomato{
     color: tomato;
 }
-section{
+.fexible-section{
     display: flex;
     background-color: rgb(237, 225, 210);
 }
-h1{
+.fexible-section2{
+    display: flex;
+    
+}
+.mozzammel-h1{
     font-size: 70px;
 }
-h2{
+.hi-h2{
     font-size: 50px;
 
 }
-h3{
+.ridoy-h3{
     font-size: 30px;
 }
 .developer-png{
@@ -36,4 +41,28 @@ ul{
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     padding-inline-start: 40px;
+}
+.download-icon-button{
+    color: white;
+    background-color: tomato;
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+}
+.download-click{
+   font-size: 20px;
+   display: inline;
+   padding-left: 2px;
+}
+.material-symbols-outlined{
+    font-size: 25px;
+}
+.hire-button{
+    font-size: 30px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+.half-width{
+    width: 50%;
+    padding-left: 2%;
 }
